@@ -7,17 +7,10 @@ public class Horloge {
         this.h = h;
     }
 
-    @Override
-    public String toString() {
-        return "Horloge{" +
-                "sec=" + sec +
-                ", min=" + min +
-                ", h=" + h +
-                '}';
-    }
+
 
     public static void main(String[] argc){
         Horloge h = new Horloge(4,5,6);
-        System.out.println(h.toString());
+        System.out.println(h.sec+"\t"+h.min+"\t"+h.h);
     }
 }

@@ -8,6 +8,6 @@ public class Horloge {
     }
     public static void main(String[] argc){
         Horloge h = new Horloge(4,5,6);
-        System.out.println(h.sec+"\t"+h.min+"\t";
+        System.out.println(h.sec+"\t"+h.min+"\t");
     }
 }
